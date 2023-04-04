@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal Interest Survey Form</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="main-container">
+			<h1 id="title">Personal Interest Survey Form</h1>
+			<p id="description">
+				This form is used to survey personal interest of our audience about web
+				development
+			</p>
+			<form action="" id="survey-form">
+				<div class="form-group">
+					<label for="name" id="name-label">Name</label>
+					<input type="text" id="name" required placeholder="Input your name" />
+					<label for="email" id="email-label">E-mail</label>
+					<input
+						type="email"
+						id="email"
+						required
+						placeholder="input your e-mail"
+					/>
+					<label for="number" id="number-label">Age</label>
+					<input
+						type="number"
+						id="number"
+						required
+						placeholder="input your age"
+						min="1"
+						max="100"
+					/>
+				</div>
+				<div class="form-group">
+					<select name="dropdown" id="dropdown">
+						<option value="select">please select</option>
+						<option value="frontenddeveloper">Front End Developer</option>
+						<option value="backendceveloper">Back end Developer</option>
+						<option value="">Full Stack Developer</option>
+						<option value="devopsengineer">Dev Ops Engineer</option>
+						<option value="softwarearchitecture">Software Architecture</option>
+					</select>
+				</div>
+				<p class="question">Which type of job do you prefer ?</p>
+				<div class="form-group">
+					<div class="option">
+						<input
+							type="radio"
+							name="jobtype"
+							id="freelancer"
+							value="jobtype"
+						/>
+						<label for="freelancer">Freelancer</label>
+					</div>
+					<div class="option">
+						<input type="radio" name="jobtype" id="fulltime" value="jobtype" />
+						<label for="fulltime">Full Time</label>
+					</div>
+					<div class="option">
+						<input type="radio" name="jobtype" id="parttime" value="jobtype" />
+						<label for="parttime">Part Time</label>
+					</div>
+					<div class="option">
+						<input type="radio" name="jobtype" id="parttime" value="jobtype" />
+						<label for="parttime">Volunteer</label>
+					</div>
+				</div>
+				<p class="question">which skills have you mastered?</p>
+				<div class="form-group">
+					<div class="option">
+						<input
+							type="checkbox"
+							name="techstack"
+							id="html"
+							value="techskill"
+						/>
+						<label for="html">HTML</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">CSS</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">Javascript</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">React</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">Angular</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">Vue</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">Express</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">Node.js</label>
+					</div>
+					<div class="option">
+						<input type="checkbox" name="techsta" id="css" value="techskill" />
+						<label for="css">MongoDB</label>
+					</div>
+				</div>
+				<textarea
+					name="teks"
+					id="textarea"
+					cols="30"
+					rows="10"
+					placeholder="input your text here"
+				></textarea>
+				<button type="submit" id="submit">SUBMIT</button>
+			</form>
+		</div>
+	</body>
+</html>
+<!-- Page tester -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
