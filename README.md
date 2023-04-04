@@ -1,7 +1,7 @@
 # Survey-Form_FreeCodeCamp
 
 <h3> About </h3>
-Survey For Project, First Project to earn Responsive Web Design Certification by Free Code Camp
+Survey Form Project, First Project to earn Responsive Web Design Certification by Free Code Camp
 <p>
 check my codepen page on https://codepen.io/khoirulwana/full/oNomWxE for live view
 </p>
